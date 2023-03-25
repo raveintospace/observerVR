@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct UserModel {
+    let name: String
+    let lastName: String
+    
+    static func getUsers() -> [UserModel]{
+        return (1..<51).map({UserModel(name: "Uri", lastName: "Darko \($0)")})
+    }
+}

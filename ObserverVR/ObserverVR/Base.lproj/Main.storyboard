@@ -41,10 +41,10 @@
             </objects>
             <point key="canvasLocation" x="66" y="5"/>
         </scene>
-        <!--View Controller-->
+        <!--User List View Controller-->
         <scene sceneID="HKe-nS-9u9">
             <objects>
-                <viewController id="tol-cf-SId" sceneMemberID="viewController">
+                <viewController id="tol-cf-SId" customClass="UserListViewController" customModule="ObserverVR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bo5-ok-DdJ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
