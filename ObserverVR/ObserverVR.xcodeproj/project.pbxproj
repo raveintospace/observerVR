@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		340C47EA29CF5F4800D26E05 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C47E929CF5F4800D26E05 /* UserModel.swift */; };
+		340C47EC29CF5F5B00D26E05 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C47EB29CF5F5B00D26E05 /* UserViewModel.swift */; };
+		340C47EE29CF5F6F00D26E05 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340C47ED29CF5F6F00D26E05 /* UserListViewController.swift */; };
 		3423D1F229CDFF420005D35B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D1F129CDFF420005D35B /* AppDelegate.swift */; };
 		3423D1F429CDFF420005D35B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D1F329CDFF420005D35B /* SceneDelegate.swift */; };
 		3423D1F629CDFF420005D35B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423D1F529CDFF420005D35B /* ViewController.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		340C47E929CF5F4800D26E05 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		340C47EB29CF5F5B00D26E05 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		340C47ED29CF5F6F00D26E05 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
 		3423D1EE29CDFF420005D35B /* ObserverVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObserverVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3423D1F129CDFF420005D35B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3423D1F329CDFF420005D35B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		340C47E529CF5F1000D26E05 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				340C47E829CF5F2A00D26E05 /* ViewModel */,
+				340C47E729CF5F1E00D26E05 /* Model */,
+				340C47E629CF5F1800D26E05 /* View */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		340C47E629CF5F1800D26E05 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				340C47ED29CF5F6F00D26E05 /* UserListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		340C47E729CF5F1E00D26E05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				340C47E929CF5F4800D26E05 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		340C47E829CF5F2A00D26E05 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				340C47EB29CF5F5B00D26E05 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3423D1E529CDFF420005D35B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +96,7 @@
 		3423D1F029CDFF420005D35B /* ObserverVR */ = {
 			isa = PBXGroup;
 			children = (
+				340C47E529CF5F1000D26E05 /* MVVM */,
 				3423D1F129CDFF420005D35B /* AppDelegate.swift */,
 				3423D1F329CDFF420005D35B /* SceneDelegate.swift */,
 				3423D1F529CDFF420005D35B /* ViewController.swift */,
@@ -140,7 +181,10 @@
 			files = (
 				3423D1F629CDFF420005D35B /* ViewController.swift in Sources */,
 				3423D1F229CDFF420005D35B /* AppDelegate.swift in Sources */,
+				340C47EA29CF5F4800D26E05 /* UserModel.swift in Sources */,
+				340C47EC29CF5F5B00D26E05 /* UserViewModel.swift in Sources */,
 				3423D1F429CDFF420005D35B /* SceneDelegate.swift in Sources */,
+				340C47EE29CF5F6F00D26E05 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

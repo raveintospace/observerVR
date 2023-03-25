@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @objc func updateViewTitle(){
         count += 1
         if count > 10 {
-            anyCancellable.removeAll()  // cancel the subscription
+            anyCancellable.removeAll()  // cancel the subscriptions
         }
         viewModel.updateTitle(newTitle: "New Title - Updated: \(count)")
     }
